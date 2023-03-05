@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+   
+    background-color: black;
+    
+    nav{
+      
+        ul{
+            height: 80px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+            li{
+                margin-left: 35px;
+               a{
+                color: white;
+                font-size: 25px;
+                transition: 0,3s;
+                &:hover{
+                    font-size: 35px;
+                }
+               } 
+
+            }
+        }
+    }
+
+}
